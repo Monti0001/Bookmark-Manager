@@ -1,0 +1,67 @@
+/* Styling the body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(120deg, #f6d365, #fda085);
+    color: #333;
+    text-align: center;
+}
+
+/* Styling the headings */
+h1 {
+    color: #fff;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    margin: 20px 0;
+}
+
+h2 {
+    color: #333;
+    margin: 15px 0;
+    text-decoration: underline;
+}
+
+/* Styling the unordered lists */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px 0;
+}
+
+/* Styling the links */
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #333;
+    background: #fff;
+    padding: 10px 20px;
+    border-radius: 25px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+}
+
+/* Hover effects for links */
+a:hover {
+    color: #fff;
+    background: #ff6f61;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    transform: translateY(-3px);
+}
+
+/* Adding motion effects */
+a:active {
+    transform: translateY(2px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Styling the sections */
+h2:nth-of-type(1) {
+    color: #ff6347;
+}
+
+h2:nth-of-type(2) {
+    color: #4682b4;
+}
